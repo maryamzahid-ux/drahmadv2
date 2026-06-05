@@ -1,0 +1,9 @@
+.banner {
+  position:fixed; top:0; width:100%; z-index:101;
+  background:var(--red-mid);
+  padding:0.6rem 2rem; text-align:center;
+}
+.banner p { color:rgba(255,255,255,0.9); font-size:13px; letter-spacing:0.03em; font-family:'Source Sans 3',sans-serif; }
+.name  { color:var(--gold-light); font-weight:700; }
+.sep   { color:rgba(255,255,255,0.5); margin:0 14px; }
+.arabic { font-family:'Noto Naskh Arabic',serif; }

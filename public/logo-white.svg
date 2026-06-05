@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+  <polygon points="30,4 50,4 58,18 50,32 30,32 22,18" fill="#D4A843" />
+  <polygon points="30,7 50,7 56,18 50,29 30,29 24,18" fill="rgba(255,255,255,0.15)" />
+  <text x="37" y="24" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="#D4A843" text-anchor="middle">H</text>
+  <text x="70" y="20" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">Al Khabbaz</text>
+  <text x="70" y="35" font-family="Georgia,serif" font-size="9.5" fill="#D4A843" letter-spacing="0.3">Corporate Enterprise</text>
+  <text x="70" y="52" font-family="Arial,sans-serif" font-size="9" fill="rgba(255,255,255,0.65)" letter-spacing="0.2">مجموعة الخباز للمؤسسات</text>
+</svg>

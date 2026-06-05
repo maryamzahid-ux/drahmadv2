@@ -1,0 +1,82 @@
+/* ═══════════════════════════════════════
+   VARIATION 2 — MODERN MINIMAL
+   Font: Libre Baskerville (headings) + Source Sans Pro (body)
+   Colors: Alternating bright sections — navy/green/red
+═══════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brighter, warmer variants */
+  --navy:        #12294F;
+  --navy-mid:    #1A3B72;
+  --navy-light:  #245299;
+  --navy-pale:   #E9EFF8;
+
+  --green:       #0E3D28;
+  --green-mid:   #196B3F;
+  --green-light: #22904F;  /* Vivid emerald */
+  --green-pale:  #E5F3EB;
+
+  --red:         #5C0E0E;
+  --red-mid:     #8F1515;
+  --red-light:   #B51C1C;  /* Bright crimson */
+  --red-pale:    #FAEBEB;
+
+  --gold:        #C8991A;
+  --gold-light:  #E8B82A;
+  --gold-pale:   #FDF6E3;
+
+  --white:       #FFFFFF;
+  --off-white:   #F8F7F4;
+  --cream:       #F2EEE7;
+  --border:      rgba(18,41,79,0.10);
+
+  --text-dark:   #111D33;
+  --text-mid:    #2C3E5A;
+  --text-muted:  #5C6E88;
+
+  /* LARGE FONT SCALE */
+  --fs-hero:   clamp(3.2rem, 7vw, 5.8rem);
+  --fs-h1:     clamp(2.6rem, 5vw, 4.2rem);
+  --fs-h2:     clamp(2rem, 3.8vw, 3.2rem);
+  --fs-h3:     clamp(1.4rem, 2.5vw, 1.9rem);
+  --fs-h4:     clamp(1.1rem, 2vw, 1.4rem);
+  --fs-body:   1.15rem;
+  --fs-small:  1rem;
+
+  --radius:    4px;
+  --shadow:    0 4px 24px rgba(18,41,79,0.09);
+  --shadow-lg: 0 20px 60px rgba(18,41,79,0.14);
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:'Source Sans 3', sans-serif;
+  font-size: var(--fs-body);
+  line-height: 1.8;
+  color: var(--text-dark);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+body[dir="rtl"] { font-family:'Noto Naskh Arabic','Source Sans 3',sans-serif; }
+h1,h2,h3,h4,h5 { font-family:'Libre Baskerville',serif; line-height:1.15; font-weight:700; }
+body[dir="rtl"] h1, body[dir="rtl"] h2, body[dir="rtl"] h3, body[dir="rtl"] h4 {
+  font-family:'Noto Naskh Arabic',serif;
+}
+p { line-height:1.85; }
+a { text-decoration:none; color:inherit; }
+img { max-width:100%; display:block; }
+button { cursor:pointer; font-family:'Source Sans 3',sans-serif; }
+input,select,textarea { font-family:'Source Sans 3',sans-serif; }
+body[dir="rtl"] button, body[dir="rtl"] input,
+body[dir="rtl"] select, body[dir="rtl"] textarea { font-family:'Noto Naskh Arabic',sans-serif; }
+
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:var(--cream); }
+::-webkit-scrollbar-thumb { background:var(--navy-mid); border-radius:3px; }
+::selection { background:var(--gold); color:var(--navy); }
+*:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
+
+.container { max-width:1240px; margin:0 auto; padding:0 2.5rem; }
+@media (max-width:600px) { .container { padding:0 1.25rem; } }

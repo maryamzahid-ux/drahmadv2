@@ -1,0 +1,32 @@
+/* Page enter animation */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: pageEnter 0.4s ease forwards;
+}
+
+/* Smooth scroll for whole site */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible ring */
+*:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Selection color */
+::selection {
+  background: var(--gold);
+  color: var(--navy);
+}

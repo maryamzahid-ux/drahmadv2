@@ -1,0 +1,17 @@
+.base {
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
+}
+
+/* Initial hidden states */
+.up    { opacity: 0; transform: translateY(32px); }
+.down  { opacity: 0; transform: translateY(-32px); }
+.left  { opacity: 0; transform: translateX(-32px); }
+.right { opacity: 0; transform: translateX(32px); }
+.none  { opacity: 0; transform: none; }
+
+/* Visible state */
+.visible {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
+}
