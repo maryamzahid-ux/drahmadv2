@@ -79,7 +79,6 @@ export default function Home() {
  <div className={styles.heroCardOverlay} style={{ background: `linear-gradient(to top, ${a.accent}EE, ${a.accent}55)` }} />
  <div className={styles.heroCardBody}>
  <span className={styles.heroCardNum}>{a.num}</span>
- <span className={styles.heroCardIcon}></span>
  <h4 className={styles.heroCardTitle}>{a.title}</h4>
  </div>
  </Link>
@@ -163,7 +162,6 @@ export default function Home() {
  onError={e => e.target.style.display='none'} />
  <div className={styles.actImgOverlay} />
  <div className={styles.actNum}>{a.num}</div>
- <div className={styles.actIcon}></div>
  </div>
  <div className={styles.actBody}>
  <span className={styles.actLabel}>{a.label}</span>

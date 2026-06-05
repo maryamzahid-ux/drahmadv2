@@ -82,7 +82,7 @@
   font-family:'Libre Baskerville',serif; font-size:2.2rem; font-weight:700;
   color:rgba(255,255,255,0.2); line-height:1;
 }
-.heroCardIcon { font-size:1.9rem; }
+
 .heroCardTitle {
   font-family:'Source Sans 3',sans-serif;
   color:var(--white); font-size:0.95rem; font-weight:600; line-height:1.3;
@@ -182,7 +182,7 @@
   font-family:'Libre Baskerville',serif; font-size:2.8rem; font-weight:700;
   color:rgba(255,255,255,0.15); line-height:1;
 }
-.actIcon { position:absolute; bottom:14px; left:50%; transform:translateX(-50%); font-size:2.4rem; z-index:1; }
+
 /* Alternating card accent colors */
 .actCard:nth-child(1) .actBody { border-top:4px solid var(--navy-mid); }
 .actCard:nth-child(2) .actBody { border-top:4px solid var(--green-light); }

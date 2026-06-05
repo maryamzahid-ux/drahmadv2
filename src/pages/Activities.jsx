@@ -69,7 +69,6 @@ export default function Activities() {
  onError={e => { e.target.style.display = 'none' }} />
  <div className={styles.photoOverlay} />
  <span className={styles.cardNum}>{act.num}</span>
- <div className={styles.iconWrap}>{act.icon}</div>
  </div>
  <div className={styles.cardBody}>
  <div className={styles.cardLabel}>{act.label}</div>
