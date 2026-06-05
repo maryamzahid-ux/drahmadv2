@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.brand}>
-            <img src="/logo-white.svg" alt="Al Khabbaz Corporate Enterprise" className={styles.logoImg} />
+            <img src="/logo-white.png" alt="Al Khabbaz Corporate Enterprise" className={styles.logoImg} />
             <p>{t('footer_desc')}</p>
           </div>
           <div className={styles.col}>

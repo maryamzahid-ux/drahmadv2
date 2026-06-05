@@ -1,4 +1,4 @@
-.logoImg { height:42px; width:auto; object-fit:contain; margin-bottom:1rem; }
+.logoImg { height:52px; width:auto; object-fit:contain; display:block; margin-bottom:1rem; }
 .footer { background:var(--navy); border-top:2px solid var(--dkred); padding:4rem 0 2rem; }
 .container { max-width:1200px; margin:0 auto; padding:0 2rem; }
 .grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:3rem; margin-bottom:3rem; }

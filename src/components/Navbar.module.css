@@ -13,7 +13,7 @@
   padding:0 2.5rem; height:72px;
 }
 .logo { display:flex; align-items:center; text-decoration:none; flex-shrink:0; }
-.logoImg { height:44px; width:auto; object-fit:contain; }
+.logoImg { height:50px; width:auto; object-fit:contain; display:block; }
 
 
 .logoSub  { font-size:10.5px; color:var(--gold-light); letter-spacing:0.09em; text-transform:uppercase; display:block; font-family:'Source Sans 3',sans-serif; }
